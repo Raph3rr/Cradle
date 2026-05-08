@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-[#0B1020] text-white overflow-hidden pt-25 md:pt-0">
+    <section className="relative min-h-screen pb-16 md:pb-0 flex items-center justify-center bg-[#0B1020] text-white overflow-hidden pt-25 md:pt-0">
       {/* Background glow */}
       <div className="absolute w-[600px] h-[600px] bg-violet-600/30 rounded-full blur-3xl top-[-200px] left-[-200px]" />
       <div className="absolute w-[500px] h-[500px] bg-cyan-400/20 rounded-full blur-3xl bottom-[-200px] right-[-200px]" />
@@ -64,6 +64,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <div className="h-10 md:h-0" />
     </section>
   );
 };
