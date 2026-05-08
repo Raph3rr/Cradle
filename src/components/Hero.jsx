@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen pb-16 md:pb-0 flex items-center justify-center bg-[#0B1020] text-white overflow-hidden pt-28 md:pt-0 ">
       {/* Background glow */}
-      <div className="absolute w-600px h-600px bg-violet-600/30 rounded-full blur-3xl top--200px] left--200px" />
-      <div className="absolute w-500px h-500px bg-cyan-400/20 rounded-full blur-3xl bottom--200px] right--200px" />
+      <div className="absolute w-[600px] h-[600px] bg-violet-600/30 rounded-full blur-3xl top-[200px] left-[200px]" />
+      <div className="absolute w-[500px] h-[500px] bg-cyan-400/20 rounded-full blur-3xl bottom-[200px] right-[200px]" />
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-3xl px-6">
