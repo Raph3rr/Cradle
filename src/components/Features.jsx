@@ -35,7 +35,7 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-24 px-6 text-white bg-[#0B1020]">
+    <section id="features" className="py-16 px-6 text-white bg-[#0B1020]">
       {/* Header */}
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-5xl font-bold">
