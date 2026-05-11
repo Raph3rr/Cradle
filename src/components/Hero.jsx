@@ -8,7 +8,10 @@ const Hero = () => {
       <div className="absolute w-[500px] h-[500px] bg-cyan-400/20 rounded-full blur-3xl bottom-[200px] right-[200px]" />
 
       {/* Content */}
-      <div className="relative z-10 text-center max-w-3xl px-6">
+      <div
+        className="relative z-10 text-center max-w-3xl px-6 
+  opacity-0 translate-y-6 animate-[fadeIn_0.8s_ease-out_forwards]"
+      >
         {/* Badge */}
         <div className="inline-block mb-6 px-4 py-2 rounded-full border border-white/10 bg-white/5 text-sm text-slate-300">
           🚀 Built for Designers & Developers
