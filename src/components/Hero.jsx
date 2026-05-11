@@ -27,7 +27,7 @@ const Hero = () => {
 
         {/* Subtext */}
         <p className="mt-6 text-slate-300 text-base md:text-lg leading-relaxed">
-          Cradle Community is a space where designers and developers come
+          Design Cradle Studio is a space where designers and developers come
           together to share ideas, build projects, and grow together in modern
           tech.
         </p>

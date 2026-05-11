@@ -5,7 +5,9 @@ const Footer = () => {
     <footer className="py-10 border-t border-white/10 bg-[#0B1020] text-slate-400">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Brand */}
-        <div className="text-white font-semibold text-lg">Cradle Community</div>
+        <div className="text-white font-semibold text-lg">
+          Design Cradle Studio
+        </div>
 
         {/* Links */}
         <div className="flex gap-6 text-sm">
@@ -22,7 +24,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-xs text-slate-500">
-          © {new Date().getFullYear()} Cradle. Built for creators.
+          © {new Date().getFullYear()} Design Cradle Studio. Built for creators.
         </div>
       </div>
     </footer>
